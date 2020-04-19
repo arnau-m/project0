@@ -1,0 +1,99 @@
+#header{
+  color: #323233;
+  text-align: center;
+  font-family: Arial;
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 50px;}
+body{
+  background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i346c7396896d5a8f/version/1509987457/best-european-ski-resorts-for-guaranteed-snow-alpe-d-huez-copyright-gaspar-janos-european-best-destinations.jpgº);
+  font-family: Arial, Times;
+  background-repeat: no-repeat;
+  background-size: cover;}
+#subtitle{
+  color: #636363;
+  text-align: center;
+  font-family: Arial;
+  font-size: 40px;
+  font-style: italic;
+  padding-bottom: 50px;}
+
+#container{
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 120px auto;
+  display: flex;
+  flex-wrap: wrap;
+  }
+#container .box{
+  position: relative;
+  width: 370px;
+  height: 270px;
+  background-image: url(https://images.unsplash.com/photo-1521846562476-9c2446539e47?ixlib=rb-1.2.1&w=1000&q=80);
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+#container .box .icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1521846562476-9c2446539e47?ixlib=rb-1.2.1&w=1000&q=80);
+  transition: 0.5s;
+  z-index: 1;
+}
+#container .box:hover .icon{
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#container .box .icon .fa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+#container .box:hover .icon .fa{
+  font-size: 40px;
+}
+#container .box .content{
+  position: absolute;
+  top: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+}
+#container .box:hover .content{
+  top: 110px;
+  opacity: 1;
+}
+#container .box .content h3{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 24px;
+}
+#container .box .content p{
+  margin: 0;
+  padding-top: 5px;
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Times;
+}
