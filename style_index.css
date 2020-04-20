@@ -1,10 +1,11 @@
 #header{
-  color: #323233;
+  color: #1f1e1e;
   text-align: center;
   font-family: Arial;
   font-size: 80px;
   font-weight: bold;
-  padding-top: 50px;}
+  padding-top: 50px;
+  text-shadow: 3px 3px 2px #998d84;}
 body{
   background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i346c7396896d5a8f/version/1509987457/best-european-ski-resorts-for-guaranteed-snow-alpe-d-huez-copyright-gaspar-janos-european-best-destinations.jpgº);
   font-family: Arial, Times;
@@ -30,8 +31,8 @@ body{
   position: relative;
   width: 370px;
   height: 270px;
-  background-image: url(https://images.unsplash.com/photo-1521846562476-9c2446539e47?ixlib=rb-1.2.1&w=1000&q=80);
   float: left;
+  background: #303030;
   margin: 15px;
   box-sizing: border-box;
   overflow: hidden;
@@ -39,7 +40,9 @@ body{
   display: flex;
   flex-wrap: wrap;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+}
+#container .box:hover{
+  opacity: 0.8;
 }
 #container .box .icon{
   position: absolute;
@@ -88,7 +91,7 @@ body{
   margin: 0;
   padding: 0;
   color: white;
-  font-size: 24px;
+  font-size: 30px;
 }
 #container .box .content p{
   margin: 0;
@@ -96,4 +99,16 @@ body{
   color: white;
   font-size: 17px;
   font-family: Arial, Times;
+}
+#container .boards .icon{
+  background-image: url(https://www.klappen.se/contentassets/1bf1c9888cc24d60ae14a70a22a4b652/snowboard_vagg.jpg);
+  background-position: center;
+}
+#container .resorts .icon{
+  background-image: url(https://www.smartertravel.com/uploads/2013/11/stm528bcffd8a73720131119.jpg);
+  background-position: bottom;
+}
+#container .riders .icon{
+  background-image: url(https://i.pinimg.com/originals/87/85/0f/87850fc15cb8e222ca1537b202c1c6bc.jpg);
+  background-position: center;
 }
