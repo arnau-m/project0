@@ -16,16 +16,17 @@ body{
   text-align: center;
   font-family: Arial;
   font-size: 40px;
-  font-style: italic;
-  padding-bottom: 50px;}
+  font-style: italic;}
 
 #container{
   position: relative;
-  width: 1200px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   margin: 120px auto;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   }
 #container .box{
   position: relative;
@@ -111,4 +112,17 @@ body{
 #container .riders .icon{
   background-image: url(https://i.pinimg.com/originals/87/85/0f/87850fc15cb8e222ca1537b202c1c6bc.jpg);
   background-position: center;
+}
+@media screen and (max-width:640px){
+  #container .box{
+    width: 270px;
+    height: 170px;
+    padding-top: 0px;
+  }
+  #header{
+    font-size: 40px;
+  }
+  #subtitle{
+    font-size: 20px;
+  }
 }
