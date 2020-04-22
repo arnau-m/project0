@@ -1,3 +1,10 @@
+body{
+  background-image: url("background_mountains.jpg");
+  font-family: Arial, Times;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 #header{
   color: #1f1e1e;
   text-align: center;
@@ -5,21 +12,19 @@
   font-size: 90px;
   font-weight: bold;
   padding-top: 50px;
-  text-shadow: 3px 3px 2px #998d84;}
-body{
-  background-image: url("background_mountains.jpg");
-  font-family: Arial, Times;
-  background-repeat: no-repeat;
-  background-size: cover;
+  text-shadow: 3px 3px 2px #998d84;
+  transition: 0.2s;
+}
+#header:hover{
+  font-size: 93px;
 }
 #subtitle{
-  color: #636363;
+  color: #3b3b3b;
   text-align: center;
   font-family: Arial;
   font-size: 40px;
   font-style: italic;
 }
-
 #container{
   position: relative;
   width: 100%;
@@ -115,6 +120,9 @@ body{
   background-position: center;
 }
 @media screen and (max-width:640px){
+  #container{
+    margin: 30px auto;
+  }
   #container .box{
     width: 280px;
     height: 180px;
@@ -122,9 +130,15 @@ body{
   }
   #header{
     font-size: 50px;
+    padding-top: 25px;
+
+  }
+  #header:hover{
+    font-size: 53px
   }
   #subtitle{
-    font-size: 25px;
+    font-size: 20px;
+
   }
   body{
     overflow: scroll;

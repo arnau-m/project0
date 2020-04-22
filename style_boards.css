@@ -1,0 +1,53 @@
+body{
+  background-image: url("background_mountains.jpg");
+  font-family: Arial, Times;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#header{
+  color: #1f1e1e;
+  text-align: center;
+  font-family: Arial;
+  font-size: 90px;
+  font-weight: bold;
+  padding-top: 50px;
+  text-shadow: 3px 3px 2px #998d84;
+}
+#subtitle{
+  color: #3b3b3b;
+  text-align: center;
+  font-family: Arial;
+  font-size: 40px;
+  font-style: italic;
+  transition: 0.2s;
+}
+#subtitle:hover{
+  font-size: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+  body{
+    overflow: scroll;
+  }
+  #header{
+    font-size: 50px;
+    padding-top: 25px;
+  }
+
+  #subtitle{
+    font-size: 25px;
+  }
+  #subtitle:hover{
+    font-size: 28px
+  }
+}
