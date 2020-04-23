@@ -25,7 +25,135 @@ body{
 #subtitle:hover{
   font-size: 43px;
 }
+.row{
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+#image{
+  position: relative;
+  height: 450px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  background: white;
+}
+#image:hover{
+  background: grey;
+}
+#image .desc{
+  font-size: 30px;
+  font-style: Arial;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.7s;
+  opacity: 0;
+}
+#image:hover .desc{
+  top:170px;
+  opacity: 1;
+}
+#image .nitro{
+  height: 100%;
+  width: 100%;
+  background-image: url("nitro_dropeout_done.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;}
 
+#image:hover .nitro{
+  background-size: 130%;
+}
+#image .bataleon{
+  height: 100%;
+  width: 100%;
+  background-image: url("bataleon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;}
+
+#image:hover .bataleon{
+  background-size: 130%;
+}
+#image .jones{
+  height: 100%;
+  width: 100%;
+  background-image: url("jones.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;}
+
+#image:hover .jones{
+  background-size: 130%;
+}
+#image .salomon{
+  height: 100%;
+  width: 100%;
+  background-image: url("salomon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;}
+
+#image:hover .salomon{
+  background-size: 130%;
+}
+#text{
+  background: #303030;
+  height:270px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.9;
+}
+
+#text .title{
+  font-size: 60px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 270px;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 1;
+}
+#text:hover .title{
+  text-align: center;
+  line-height: 125px;
+  font-size: 50px;
+}
+#text .content{
+  font-size: 30px;
+  font-style: Arial;
+  color: white;
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+}
+#text:hover .content{
+  top: 100px;
+  opacity: 1;}
 
 
 
@@ -41,13 +169,19 @@ body{
   }
   #header{
     font-size: 50px;
-    padding-top: 25px;
+    padding-top: 15px;
   }
-
   #subtitle{
     font-size: 25px;
   }
   #subtitle:hover{
     font-size: 28px
   }
+  #text{
+    display: none;
+  }
+  #image{
+    height: 550px;
+  }
+
 }
