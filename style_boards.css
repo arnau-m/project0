@@ -23,7 +23,7 @@ body{
   transition: 0.2s;
 }
 #subtitle:hover{
-  font-size: 43px;
+  transform: scale(1.08);
 }
 .row{
   position: relative;
@@ -72,7 +72,7 @@ body{
   transition: 0.5s;}
 
 #image:hover .nitro{
-  background-size: 130%;
+  transform: scale(1.1);
 }
 #image .bataleon{
   height: 100%;
@@ -84,7 +84,7 @@ body{
   transition: 0.5s;}
 
 #image:hover .bataleon{
-  background-size: 130%;
+  transform: scale(1.1);
 }
 #image .jones{
   height: 100%;
@@ -96,7 +96,7 @@ body{
   transition: 0.5s;}
 
 #image:hover .jones{
-  background-size: 130%;
+  transform: scale(1.1);
 }
 #image .salomon{
   height: 100%;
@@ -108,7 +108,7 @@ body{
   transition: 0.5s;}
 
 #image:hover .salomon{
-  background-size: 130%;
+  transform: scale(1.1);
 }
 #text{
   background: #303030;
@@ -163,7 +163,7 @@ body{
 
 
 
-@media screen and (max-width:640px){
+@media screen and (max-width:650px){
   body{
     overflow: scroll;
   }
@@ -184,4 +184,14 @@ body{
     height: 550px;
   }
 
+}
+@media screen and (max-width:800px){
+  #image{
+    height: 800px;
+    width: 500px;
+  }
+  #text{
+    display: none;
+  }
+  
 }

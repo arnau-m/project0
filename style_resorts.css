@@ -25,6 +25,120 @@ body{
 #subtitle:hover{
   font-size: 43px;
 }
+.row{
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+#image{
+  position: relative;
+  height: 300px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: 0.5s;
+  border-radius: 15px;
+
+}
+#image:hover{
+  background: ;
+}
+
+#image .wistler{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.planetware.com/wpimages/2018/10/top-ski-resorts-world-canada-british-columbia-whistler-blackcomb.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+#image:hover .wistler{
+  transform: scale(1.1);
+}
+#image .courchevel{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://www.planetware.com/wpimages/2019/11/world-top-ski-resorts-2019-2020-courchevel.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;}
+
+#image:hover .courchevel{
+  transform: scale(1.1);
+}
+#image .aspen{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://www.planetware.com/wpimages/2018/10/top-ski-resorts-world-united-states-colorado-aspen-snowmass.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;}
+
+#image:hover .aspen{
+  transform: scale(1.1);
+}
+#image .niseko{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://www.planetware.com/wpimages/2018/10/top-ski-resorts-world-japan-hokkaido-niseko.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;}
+
+#image:hover .niseko{
+  transform: scale(1.1);
+}
+#text{
+  background: #303030;
+  height:270px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.9;
+}
+
+#text .title{
+  font-size: 60px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 270px;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.6s;
+  z-index: 1;
+}
+#text:hover .title{
+  text-align: center;
+  line-height: 125px;
+  font-size: 50px;
+}
+#text .content{
+  font-size: 30px;
+  font-style: Arial;
+  color: white;
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+}
+#text:hover .content{
+  top: 100px;
+  opacity: 1;}
 
 
 
@@ -34,20 +148,35 @@ body{
 
 
 
-
-@media screen and (max-width:640px){
+@media screen and (max-width:650px){
   body{
     overflow: scroll;
   }
   #header{
     font-size: 50px;
-    padding-top: 25px;
+    padding-top: 15px;
   }
-
   #subtitle{
     font-size: 25px;
   }
   #subtitle:hover{
     font-size: 28px
   }
+  #text{
+    display: none;
+  }
+  #image{
+    height: 550px;
+  }
+
+}
+@media screen and (max-width:800px){
+  #image{
+    height: 800px;
+    width: 500px;
+  }
+  #text{
+    display: none;
+  }
+
 }

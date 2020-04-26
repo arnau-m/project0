@@ -20,12 +20,43 @@ body{
   font-family: Arial;
   font-size: 40px;
   font-style: italic;
+  padding-bottom:100px;
   transition: 0.2s;
 }
 #subtitle:hover{
   font-size: 43px;
 }
-
+ul{
+  position: relative;
+  width: 700px;
+  margin: 100px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #6b6e6c;
+  border-radius: 15px;
+}
+ul li{
+  display: flex;
+  font-size: 30px;
+  background: grey;
+  padding: 10px 20px;
+  color: lightgrey;
+  margin: 5px;
+  transition: 0.5s;
+  border-radius: 15px;
+  }
+ul li:hover{
+  transform: scale(1.07);
+}
+ul li span:nth-child(1){
+  width: 30px;
+}
+ul li span:nth-child(2){
+  width: 550px;
+}
+ul li span:nth-child(3){
+  width: 70px;
+}
 
 
 
@@ -48,6 +79,35 @@ body{
     font-size: 25px;
   }
   #subtitle:hover{
-    font-size: 28px
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  ul{
+    position: relative;
+    width: 320px;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #6b6e6c;
+    border-radius: 15px;
+  }
+  ul li{
+    display: flex;
+    font-size: 20px;
+    background: grey;
+    padding: 10px 20px;
+    color: lightgrey;
+    margin: 5px;
+    transition: 0.5s;
+    border-radius: 15px;
+    }
+  ul li span:nth-child(1){
+    width: 30px;
+  }
+  ul li span:nth-child(2){
+    width: 220px;
+  }
+  ul li span:nth-child(3){
+    width: 30px;
   }
 }
