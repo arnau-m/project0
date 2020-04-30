@@ -1,5 +1,5 @@
 body{
-  background-image: url("/IMATGES/background_mountains.jpg");
+  background-image: url("background_mountains.jpg");
   font-family: Arial, Times;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +65,7 @@ body{
 #image .nitro{
   height: 100%;
   width: 100%;
-  background-image: url("/IMATGES/nitro_dropeout_done.png");
+  background-image: url("nitro_dropeout_done.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +77,7 @@ body{
 #image .bataleon{
   height: 100%;
   width: 100%;
-  background-image: url("/IMATGES/bataleon.png");
+  background-image: url("bataleon.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,7 +89,7 @@ body{
 #image .jones{
   height: 100%;
   width: 100%;
-  background-image: url("/IMATGES/jones.png");
+  background-image: url("jones.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@ body{
 #image .salomon{
   height: 100%;
   width: 100%;
-  background-image: url("/IMATGES/salomon.png");
+  background-image: url("salomon.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

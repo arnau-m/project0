@@ -1,5 +1,5 @@
 body{
-  background-image: url("/IMATGES/background_mountains.jpg");
+  background-image: url("background_mountains.jpg");
   font-family: Arial, Times;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -108,15 +108,15 @@ body{
   font-family: Arial, Times;
 }
 #container .boards .icon{
-  background-image: url("/IMATGES/snowboard.jpg");
+  background-image: url("snowboard.jpg");
   background-position: center;
 }
 #container .resorts .icon{
-  background-image: url("/IMATGES/resorts.jpg");
+  background-image: url("resorts.jpg");
   background-position: bottom;
 }
 #container .riders .icon{
-  background-image: url("/IMATGES/riders.jpg");
+  background-image: url("riders.jpg");
   background-position: center;
 }
 @media screen and (max-width:640px){
