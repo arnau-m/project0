@@ -1,5 +1,5 @@
 body{
-  background-image: url("background_mountains.jpg");
+  background-image: url("/IMATGES/background_mountains.jpg");
   font-family: Arial, Times;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,6 @@ body{
   border-radius: 15px;
   transition: 0.5s;
   border-radius: 15px;
-
 }
 #image:hover{
   background: ;
@@ -125,7 +124,7 @@ body{
   font-size: 50px;
 }
 #text .content{
-  font-size: 30px;
+  font-size: 25px;
   font-style: Arial;
   color: white;
   position: absolute;
@@ -162,11 +161,20 @@ body{
   #subtitle:hover{
     font-size: 28px
   }
-  #text{
+  #image{
     display: none;
   }
   #image{
     height: 550px;
+  }
+  #text .title{
+    font-size: 27px;
+  }
+  #text:hover .title{
+    font-size: 20px;
+  }
+  #image .content{
+    font-size: 7px;
   }
 
 }
@@ -175,8 +183,17 @@ body{
     height: 800px;
     width: 500px;
   }
-  #text{
+  #image{
     display: none;
+  }
+  #text .title{
+    font-size: 27px;
+  }
+  #text:hover .title{
+    font-size: 20px;
+  }
+  #text .content{
+    font-size: 15px;
   }
 
 }
