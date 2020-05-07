@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
 body{
   background-image: url("background_mountains.jpg");
   font-family: Arial, Times;
@@ -20,11 +27,6 @@ body{
   font-family: Arial;
   font-size: 40px;
   font-style: italic;
-  padding-bottom:100px;
-  transition: 0.2s;
-}
-#subtitle:hover{
-  font-size: 43px;
 }
 ul{
   position: relative;
@@ -57,15 +59,65 @@ ul li span:nth-child(2){
 ul li span:nth-child(3){
   width: 70px;
 }
-
-
-
-
-
-
-
-
-
+#wrapper{
+  position: fixed;
+  top: 100px  ;
+  left:60px;
+  z-index: 1;
+  padding-bottom: 40px;
+}
+.breadcrumbs{
+  width: 60px;
+  height: 0px;
+  background:;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.4s;
+}
+.breadcrumbs:hover{
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+  background: #fff;
+  height: 250px;
+}
+.breadcrumbs ol{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+}
+.breadcrumbs:hover ol{
+  opacity: 1;
+}
+.breadcrumbs ol li{
+  width: 100%;
+  height: 10px;
+  display: block;
+  padding: 40px 0;
+  position: relative;
+}
+.breadcrumbs ol li a {
+  color: #afafaf;
+  font-size: 14px;
+}
+.breadcrumbs .home{
+  position: absolute;
+  transform: translateY(-50%);
+  left: -10px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #5e5959;
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+.breadcrumbs .home a{
+  font-size: 25px;
+  color: white;
+}
+.breadcrumbs ol li.active a{
+  color: #2b9ecf;
+}
 @media screen and (max-width:640px){
   body{
     overflow: scroll;
@@ -74,7 +126,6 @@ ul li span:nth-child(3){
     font-size: 50px;
     padding-top: 25px;
   }
-
   #subtitle{
     font-size: 25px;
   }
@@ -109,5 +160,60 @@ ul li span:nth-child(3){
   }
   ul li span:nth-child(3){
     width: 30px;
+  }
+  #wrapper{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    z-index: 1;
+  }
+  .breadcrumbs{
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 10px;
+    position: relative;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    background: #fff;
+  }
+  .breadcrumbs:hover{
+    height: 30px;
+  }
+  .breadcrumbs ol{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    opacity: 1;
+  }
+  .breadcrumbs ol li{
+    width: 60px;
+    right: 10%;
+    height: 10%;
+    padding: 0px 0px;
+    display: flex;
+    position: relative;
+  }
+  .breadcrumbs ol li a {
+      color: #afafaf;
+      font-size: 10px;
+  }
+  .breadcrumbs .home{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #5e5959;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0,0,0,0.25);
+  }
+  .breadcrumbs .home a{
+    font-size: 25px;
+    color: white;
   }
 }
