@@ -214,7 +214,6 @@ body{
   #image .content{
     font-size: 7px;
   }
-
 }
 @media screen and (max-width:800px){
   #image{
@@ -252,8 +251,7 @@ body{
     .breadcrumbs:hover{
       height: 30px;
     }
-
-  .breadcrumbs ul{
+    .breadcrumbs ul{
       width: 100%;
       height: 100%;
       display: flex;
@@ -268,31 +266,26 @@ body{
       padding: 0px 0px;
       display: flex;
       position: relative;
-    }
-
-
+  }
   .breadcrumbs ul li a {
       color: #afafaf;
       font-size: 10px;
-    }
-
+  }
   .breadcrumbs .home{
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      left: -10px;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      text-align: center;
-      background: #5e5959;
-      border-radius: 50%;
-      box-shadow: 0 0 2px rgba(0,0,0,0.25);
-    }
-
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #5e5959;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0,0,0,0.25);
+  }
   .breadcrumbs .home a{
-      font-size: 25px;
-      color: white;
-    }
-
+    font-size: 25px;
+    color: white;
+  }
 }

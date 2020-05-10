@@ -5,7 +5,6 @@
   list-style: none;
   text-decoration: none;
 }
-
 body{
   background-image: url("background_mountains.jpg");
   font-family: Arial, Times;
@@ -13,7 +12,6 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-
 #header{
   color: #1f1e1e;
   text-align: center;
@@ -24,7 +22,6 @@ body{
   text-shadow: 3px 3px 2px #998d84;
   transition: 0.2s;
 }
-
 #subtitle{
   color: #3b3b3b;
   text-align: center;
@@ -126,18 +123,12 @@ body{
   background-image: url("riders.jpg");
   background-position: center;
 }
-
-
-
-
-
 #wrapper{
   position: fixed;
   top: 100px  ;
   left:60px;
   z-index: 1;
 }
-
 .breadcrumbs{
   width: 60px;
   height: 0px;
@@ -151,7 +142,6 @@ body{
   background: #fff;
   height: 250px;
 }
-
 .breadcrumbs ul{
   width: 100%;
   height: 100%;
@@ -161,7 +151,6 @@ body{
 .breadcrumbs:hover ul{
   opacity: 1;
 }
-
 .breadcrumbs ul li{
   width: 100%;
   height: 10px;
@@ -169,14 +158,10 @@ body{
   padding: 40px 0;
   position: relative;
 }
-
-
 .breadcrumbs ul li a {
   color: #afafaf;
   font-size: 14px;
 }
-
-
 .breadcrumbs .home{
   position: absolute;
   transform: translateY(-50%);
@@ -189,16 +174,10 @@ body{
   border-radius: 50%;
   box-shadow: 0 0 2px rgba(0,0,0,0.25);
 }
-
 .breadcrumbs .home a{
   font-size: 25px;
   color: white;
 }
-
-
-
-
-
 @media screen and (max-width:800px){
   #container{
     margin: 30px auto;
@@ -211,14 +190,12 @@ body{
   #header{
     font-size: 50px;
     padding-top: 25px;
-
   }
   #header:hover{
     font-size: 53px
   }
   #subtitle{
     font-size: 20px;
-
   }
   body{
     overflow: scroll;
@@ -228,31 +205,25 @@ body{
     height: 60px;
     left: calc(50% - 30px);
     top: 10px;
-      }
+  }
   #container .box:hover .icon .fa{
     font-size: 25px;
-    }
-    #container .box:hover .content{
-      top: 60px;
-    }
-    #container .box .content h3{
-      font-size: 22px;
-    }
-    #container .box .content p{
-      font-size: 15px;
-
-    }
-
-
-
-
-
+  }
+  #container .box:hover .content{
+    top: 60px;
+  }
+  #container .box .content h3{
+    font-size: 22px;
+  }
+  #container .box .content p{
+    font-size: 15px;
+  }
   #wrapper{
       position: relative;
       top: 20px;
       left: 40px;
       z-index: 1;
-    }
+  }
   .breadcrumbs{
       width: 200px;
       height: 30px;
@@ -262,19 +233,17 @@ body{
       position: relative;
       box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
       background: #fff;
-    }
-    .breadcrumbs:hover{
-      height: 30px;
-    }
-
+  }
+  .breadcrumbs:hover{
+    height: 30px;
+  }
   .breadcrumbs ul{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      text-align: center;
-      opacity: 1;
-    }
-
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    opacity: 1;
+  }
   .breadcrumbs ul li{
       width: 60px;
       right: 10%;
@@ -283,13 +252,10 @@ body{
       display: flex;
       position: relative;
     }
-
-
   .breadcrumbs ul li a {
       color: #afafaf;
       font-size: 10px;
     }
-
   .breadcrumbs .home{
       position: absolute;
       top: 50%;
@@ -303,9 +269,8 @@ body{
       border-radius: 50%;
       box-shadow: 0 0 2px rgba(0,0,0,0.25);
     }
-
   .breadcrumbs .home a{
-      font-size: 25px;
-      color: white;
-    }
+    font-size: 25px;
+    color: white;
+  }
 }

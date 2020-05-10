@@ -5,8 +5,6 @@
   list-style: none;
   text-decoration: none;
 }
-
-
 body{
   background-image: url("background_mountains.jpg");
   font-family: Arial, Times;
@@ -74,8 +72,8 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.5s;}
-
+  transition: 0.5s;
+}
 #image:hover .nitro{
   transform: scale(1.1);
 }
@@ -86,8 +84,8 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.5s;}
-
+  transition: 0.5s;
+}
 #image:hover .bataleon{
   transform: scale(1.1);
 }
@@ -98,8 +96,8 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.5s;}
-
+  transition: 0.5s;
+}
 #image:hover .jones{
   transform: scale(1.1);
 }
@@ -110,8 +108,8 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.5s;}
-
+  transition: 0.5s;
+}
 #image:hover .salomon{
   transform: scale(1.1);
 }
@@ -124,7 +122,6 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   opacity: 0.9;
 }
-
 #text .title{
   font-size: 60px;
   font-family: Arial;
@@ -158,17 +155,15 @@ body{
 }
 #text:hover .content{
   top: 100px;
-  opacity: 1;}
-
-
+  opacity: 1;
+}
 #wrapper{
     position: fixed;
     top: 100px  ;
     left:60px;
     z-index: 1;
     padding-bottom: 20px;
-  }
-
+}
 .breadcrumbs{
     width: 60px;
     height: 0px;
@@ -176,40 +171,35 @@ body{
     border-radius: 50px;
     position: relative;
     transition: 0.4s;
-  }
+}
 .breadcrumbs:hover{
     box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
     background: #fff;
     height: 250px;
-  }
-
+}
 .breadcrumbs ul{
     width: 100%;
     height: 100%;
     text-align: center;
     opacity: 0;
-  }
+}
 .breadcrumbs:hover ul{
     opacity: 1;
-  }
-
+}
 .breadcrumbs ul li{
     width: 100%;
     height: 10px;
     display: block;
     padding: 40px 0;
     position: relative;
-  }
-
-
+}
 .breadcrumbs ul li a {
     color: #afafaf;
     font-size: 14px;
-  }
-  .breadcrumbs ul li.active a{
+}
+.breadcrumbs ul li.active a{
     color: #2b9ecf;
-  }
-
+}
 .breadcrumbs .home{
     position: absolute;
     transform: translateY(-50%);
@@ -221,13 +211,11 @@ body{
     background: #5e5959;
     border-radius: 50%;
     box-shadow: 0 0 2px rgba(0,0,0,0.25);
-  }
-
+}
 .breadcrumbs .home a{
     font-size: 25px;
     color: white;
   }
-
 @media screen and (max-width:650px){
   body{
     overflow: scroll;
@@ -273,8 +261,7 @@ body{
       position: relative;
       box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
       background: #fff;
-    }
-
+  }
   .breadcrumbs:hover{
     height: 30px;
   }
@@ -284,8 +271,7 @@ body{
       display: flex;
       text-align: center;
       opacity: 1;
-    }
-
+  }
   .breadcrumbs ul li{
       width: 60px;
       right: 10%;
@@ -294,13 +280,10 @@ body{
       display: flex;
       position: relative;
     }
-
-
   .breadcrumbs ul li a {
       color: #afafaf;
       font-size: 10px;
     }
-
   .breadcrumbs .home{
       position: absolute;
       top: 50%;
@@ -314,10 +297,8 @@ body{
       border-radius: 50%;
       box-shadow: 0 0 2px rgba(0,0,0,0.25);
     }
-
   .breadcrumbs .home a{
       font-size: 25px;
       color: white;
     }
-
 }
